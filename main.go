@@ -47,7 +47,7 @@ func main() {
 		}),
 		customMiddleware.Logger,
 	)
-	server.Logger.Fatal(server.Start(":" + "4004"))
+	server.Logger.Fatal(server.Start(":" + os.Getenv("PORT")))
 
 }
 
