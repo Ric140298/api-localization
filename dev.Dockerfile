@@ -9,7 +9,7 @@ COPY . .
 
 # set variables for environment
 ENV ENVIRONMENT "dev"
-ENV LOG_LEVEL 1
+ENV LOG_LEVEL 0
 # Download all the dependencies
 # https://stackoverflow.com/questions/28031603/what-do-three-dots-mean-in-go-command-line-invocations
 RUN go get  -u github.com/stretchr/testify/assert && \
@@ -42,4 +42,4 @@ WORKDIR /go/src/api-localization
 COPY --from=builder /go/src/api-localization/app /go/src/api-localization/app
 # Run the app binary.
 CMD ["./app"]
-EXPOSE 4004
+EXPOSE $PORT
