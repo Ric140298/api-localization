@@ -42,5 +42,4 @@ WORKDIR /go/src/api-localization
 COPY --from=builder /go/src/api-localization/app /go/src/api-localization/app
 # Run the app binary.
 CMD ["./app"]
-EXPOSE $PORT
 EXPOSE 4004
