@@ -1,3 +1,4 @@
 build:
     docker:
         web: dev.Dockerfile
+        worker: dev.Dockerfile
