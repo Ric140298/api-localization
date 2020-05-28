@@ -1,8 +1,8 @@
 package routes
 
 import (
-	"Localizacion/controllers"
-	"Localizacion/di"
+	"api-localization/controllers"
+	"api-localization/di"
 
 	"github.com/labstack/echo"
 )

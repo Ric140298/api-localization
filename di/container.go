@@ -1,7 +1,7 @@
 package di
 
 import (
-	"Localizacion/controllers"
+	"api-localization/controllers"
 
 	"go.uber.org/dig"
 )

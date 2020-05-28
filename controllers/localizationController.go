@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"Localizacion/logger"
+	"api-localization/logger"
 	"encoding/json"
 	"net/http"
 	"time"

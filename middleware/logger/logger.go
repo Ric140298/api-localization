@@ -1,7 +1,7 @@
 package logger
 
 import (
-	"Localizacion/logger"
+	"api-localization/logger"
 	"time"
 
 	"github.com/labstack/echo"

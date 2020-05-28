@@ -1,4 +1,4 @@
-module Localizacion
+module api-localization
 
 go 1.14
 

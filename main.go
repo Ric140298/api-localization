@@ -1,9 +1,9 @@
 package main
 
 import (
-	"Localizacion/logger"
-	customMiddleware "Localizacion/middleware/logger"
-	"Localizacion/routes"
+	"api-localization/logger"
+	customMiddleware "api-localization/middleware/logger"
+	"api-localization/routes"
 	"fmt"
 	"net/http"
 	"os"
