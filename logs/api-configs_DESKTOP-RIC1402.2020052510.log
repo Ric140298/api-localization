@@ -1,0 +1,18 @@
+10:51AM Log level set to '0'
+10:52AM REQS [GET][404] /configuration/seus/dev	0.00 ms
+10:52AM ERRO [ConfigurationRepository][GetPaths] GET https://api.github.com/repos/occmundial/configurations/contents/architecture?ref=development: 401 Bad credentials []
+10:52AM REQS [GET][500] /configuration/architecture/seus/dev	467.94 ms
+10:52AM ERRO [ConfigurationRepository][GetPaths] GET https://api.github.com/repos/occmundial/configurations/contents/architecture?ref=development: 401 Bad credentials []
+10:52AM REQS [GET][500] /configuration/architecture/seus/dev	113.98 ms
+10:52AM ERRO [ConfigurationRepository][GetPaths] GET https://api.github.com/repos/occmundial/configurations/contents/architecture?ref=development: 401 Bad credentials []
+10:52AM REQS [GET][500] /configuration/architecture/seus/dev	107.33 ms
+10:52AM ERRO [ConfigurationRepository][GetPaths] GET https://api.github.com/repos/occmundial/configurations/contents/architecture?ref=development: 401 Bad credentials []
+10:52AM REQS [GET][500] /configuration/architecture/seus/dev	130.24 ms
+10:52AM ERRO [ConfigurationRepository][GetPaths] GET https://api.github.com/repos/occmundial/configurations/contents/architecture?ref=development: 401 Bad credentials []
+10:52AM REQS [GET][500] /configuration/architecture/seus/dev	116.20 ms
+10:52AM ERRO [ConfigurationRepository][GetPaths] GET https://api.github.com/repos/occmundial/configurations/contents/architecture?ref=development: 401 Bad credentials []
+10:52AM REQS [GET][500] /configuration/architecture/seus/dev	106.02 ms
+10:54AM Log level set to '0'
+10:54AM REQS [GET][200] /configuration/architecture/seus/dev	14151.41 ms
+10:54AM REQS [GET][200] /configuration/architecture/bootstrap/dev	1271.91 ms
+10:54AM REQS [GET][200] /configuration/architecture/bootstrap/dev	0.00 ms

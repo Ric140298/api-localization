@@ -1,0 +1,13 @@
+2:19PM Log level set to '0'
+2:20PM REQS [GET][200] /localization/calcule	10464.74 ms
+2:21PM REQS [GET][200] /localization/calcule	91.86 ms
+2:51PM Log level set to '0'
+2:51PM ERRO [LocalizationController][CalculateRoute] parse "https://api.tomtom.com/routing/1/calculateRoute/20.532230%!C(string=mPAGwhEHVNv5yWJlTHCsbHceQm4pFTY2)-100.441125%!A(MISSING)20.532140%!C(MISSING)-100.441865/json?computeBestOrder=true&sectionType=traffic&routeType=fastest&avoid=unpavedRoads&travelMode=car&key=%!s(MISSING)": invalid URL escape "%!C"
+2:51PM REQS [GET][500] /localization/calcule	0.00 ms
+2:54PM Log level set to '0'
+2:54PM ERRO [LocalizationController][CalculateRoute] parse "https://api.tomtom.com/routing/1/calculateRoute/20.532230%!C(string=mPAGwhEHVNv5yWJlTHCsbHceQm4pFTY2)-100.441125%!A(MISSING)20.532140%!C(MISSING)-100.441865/json?computeBestOrder=true&sectionType=traffic&routeType=fastest&avoid=unpavedRoads&travelMode=car&key=%!s(MISSING)": invalid URL escape "%!C"
+2:54PM REQS [GET][500] /localization/calcule	1.00 ms
+2:54PM ERRO [LocalizationController][CalculateRoute] parse "https://api.tomtom.com/routing/1/calculateRoute/20.532230%!C(string=mPAGwhEHVNv5yWJlTHCsbHceQm4pFTY2)-100.441125%!A(MISSING)20.532140%!C(MISSING)-100.441865/json?computeBestOrder=true&sectionType=traffic&routeType=fastest&avoid=unpavedRoads&travelMode=car&key=%!s(MISSING)": invalid URL escape "%!C"
+2:54PM REQS [GET][500] /localization/calcule	0.00 ms
+2:57PM Log level set to '0'
+2:57PM REQS [GET][200] /localization/calcule	409.65 ms

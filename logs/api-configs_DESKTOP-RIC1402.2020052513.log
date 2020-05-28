@@ -1,0 +1,16 @@
+1:15PM Log level set to '0'
+1:15PM REQS [GET][200] /configuration/architecture/bootstrap/dev	0.00 ms
+1:17PM Log level set to '0'
+1:19PM Log level set to '0'
+1:22PM Log level set to '0'
+1:23PM Log level set to '0'
+1:23PM Log level set to '0'
+1:23PM Log level set to '0'
+1:25PM Log level set to '0'
+1:25PM REQS [GET][200] /configuration/architecture/bootstrap/dev/config.json	2103.20 ms
+1:30PM REQS [GET][200] /configuration/architecture/bootstrap/dev/config.json	0.98 ms
+1:45PM Log level set to '0'
+1:45PM REQS [GET][200] /configuration/architecture/bootstrap/dev/config.json	858.06 ms
+1:47PM Log level set to '0'
+1:47PM REQS [GET][200] /configuration/architecture/bootstrap/dev/config.json	873.79 ms
+1:47PM REQS [GET][200] /configuration/architecture/bootstrap/dev/config.json	0.99 ms
