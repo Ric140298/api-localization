@@ -18,7 +18,7 @@ func (controller *LocalizationController) CalculateRoute(c echo.Context) error {
 	longitude1 := c.QueryParam("long")
 	latitude2 := c.QueryParam("lat2")
 	longitude2 := c.QueryParam("long2")
-	url := fmt.Sprintf("https://api.tomtom.com/routing/1/calculateRoute/%s%s%s%s/json?computeBestOrder=true&sectionType=traffic&routeType=fastest&avoid=unpavedRoads&travelMode=car&key=mPAGwhEHVNv5yWJlTHCsbHceQm4pFTY2", latitude1+"%2C", longitude1+"%3A", latitude2+"%2C", longitude2)
+	url := fmt.Sprintf("https://api.tomtom.com/routing/1/calculateRoute/%s%s%s%s/json?computeBestOrder=true&sectionType=traffic&routeType=fastest&avoid=unpavedRoads&travelMode=car&key=mPAGwhEHVNv5yWJlTHCsbHceQm4pFTY2", lat1+"%2C", long1+"%3A", lat2+"%2C", long2)
 	var temporalStorage interface{}
 	client := http.Client{Timeout: time.Second * 30}
 	req, err := http.NewRequest("GET", url, nil)
