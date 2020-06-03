@@ -14,10 +14,10 @@ type LocalizationController struct {
 }
 
 func (controller *LocalizationController) CalculateRoute(c echo.Context) error {
-	latitude1 := c.QueryParam("latitude1")
-	longitude1 := c.QueryParam("longitude1")
-	latitude2 := c.QueryParam("latitude2")
-	longitude2 := c.QueryParam("longitude2")
+	latitude1 := c.QueryParam("lat1")
+	longitude1 := c.QueryParam("long")
+	latitude2 := c.QueryParam("lat2")
+	longitude2 := c.QueryParam("long2")
 	url := fmt.Sprintf("https://api.tomtom.com/routing/1/calculateRoute/%s%s%s%s/json?computeBestOrder=true&sectionType=traffic&routeType=fastest&avoid=unpavedRoads&travelMode=car&key=mPAGwhEHVNv5yWJlTHCsbHceQm4pFTY2", latitude1+"%2C", longitude1+"%3A", latitude2+"%2C", longitude2)
 	var temporalStorage interface{}
 	client := http.Client{Timeout: time.Second * 30}
