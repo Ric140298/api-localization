@@ -73,7 +73,7 @@ func (controller *LocalizationController) ShowCoordinatesforDangerZones(c echo.C
 func (controller *LocalizationController) CalculateDistanceToFences(c echo.Context) error {
 	point := c.QueryParam("point")
 	objectID := c.QueryParam("object")
-	apiKey := c.QueryParam("key")
+	apiKey := "mPAGwhEHVNv5yWJlTHCsbHceQm4pFTY2"
 	projectID := "ea8ca9cc-367c-4208-893e-d6485a076e27"
 	url := fmt.Sprintf("https://api.tomtom.com/geofencing/1/report/%s?key=%s&point=%s&object=%s", projectID, apiKey, point, objectID)
 	var temporalStorage map[string]interface{}
@@ -98,7 +98,7 @@ func (controller *LocalizationController) CalculateDistanceToFences(c echo.Conte
 	}
 	Storage["inside"] = temporalStorage["inside"]
 	Storage["outside"] = temporalStorage["outside"]
-	
+
 	return c.JSON(http.StatusOK, Storage)
 
 }
