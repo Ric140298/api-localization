@@ -16,7 +16,6 @@ type LocalizationController struct {
 }
 
 func (controller *LocalizationController) CalculateRoute(c echo.Context) error {
-<<<<<<< HEAD
 
 	latitude1 := c.QueryParam("lat1")
 	longitude1 := c.QueryParam("long1")
@@ -24,14 +23,6 @@ func (controller *LocalizationController) CalculateRoute(c echo.Context) error {
 	longitude2 := c.QueryParam("long2")
 	url := fmt.Sprintf("https://api.tomtom.com/routing/1/calculateRoute/%s%s%s%s/json?computeBestOrder=true&sectionType=traffic&routeType=fastest&avoid=unpavedRoads&travelMode=car&key=mPAGwhEHVNv5yWJlTHCsbHceQm4pFTY2", latitude1+"%2C", longitude1+"%3A", latitude2+"%2C", longitude2)
 	var temporalStorage map[string]interface{}
-=======
-	lat1 := c.QueryParam("lat1")
-	long1 := c.QueryParam("long1")
-	lat2 := c.QueryParam("lat2")
-	long2 := c.QueryParam("long2")
-	url := fmt.Sprintf("https://api.tomtom.com/routing/1/calculateRoute/%s%s%s%s/json?computeBestOrder=true&sectionType=traffic&routeType=fastest&avoid=unpavedRoads&travelMode=car&key=mPAGwhEHVNv5yWJlTHCsbHceQm4pFTY2", lat1+"%2C", long1+"%3A", lat2+"%2C", long2)
-	var temporalStorage interface{}
->>>>>>> a1fef69148479a2f952350d8358853b91a6cccdd
 	client := http.Client{Timeout: time.Second * 30}
 	req, err := http.NewRequest("GET", url, nil)
 	if err != nil {
