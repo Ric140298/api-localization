@@ -27,6 +27,7 @@ func init() {
 		Routes = ServerRoutes{
 			Route{Method: "GET", Name: "GetRoute", Pattern: serviceName + "/calcule", HandlerFunc: localizationController.CalculateRoute},
 			Route{Method: "GET", Name: "GetDangerZones", Pattern: serviceName + "/danger", HandlerFunc: localizationController.ShowCoordinatesforDangerZones},
+			Route{Method: "GET", Name: "GetDistanceToFences", Pattern: serviceName + "/fences", HandlerFunc: localizationController.CalculateDistanceToFences},
 		}
 	})
 

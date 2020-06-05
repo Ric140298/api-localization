@@ -69,3 +69,36 @@ func (controller *LocalizationController) ShowCoordinatesforDangerZones(c echo.C
 	}
 	return c.JSON(http.StatusOK, storage)
 }
+
+func (controller *LocalizationController) CalculateDistanceToFences(c echo.Context) error {
+	point := c.QueryParam("point")
+	objectID := c.QueryParam("object")
+	apiKey := c.QueryParam("key")
+	projectID := "ea8ca9cc-367c-4208-893e-d6485a076e27"
+	url := fmt.Sprintf("https://api.tomtom.com/geofencing/1/report/%s?key=%s&point=%s&object=%s", projectID, apiKey, point, objectID)
+	var temporalStorage map[string]interface{}
+	Storage := make(map[string]interface{})
+	client := http.Client{Timeout: time.Second * 30}
+	req, err := http.NewRequest("GET", url, nil)
+	if err != nil {
+		logger.Error("LocalizationController", "CalculateDistanceToFences", err.Error())
+		return c.JSON(http.StatusInternalServerError, err.Error())
+
+	}
+	resp, err := client.Do(req)
+	if err != nil {
+		logger.Error("LocalizationController", "CalculateDistanceToFences", err.Error())
+		return c.JSON(http.StatusInternalServerError, err.Error())
+	}
+
+	err = json.NewDecoder(resp.Body).Decode(&temporalStorage)
+	if err != nil {
+		logger.Error("LocalizationController", "CalculateDistanceToFences", err.Error())
+		return c.JSON(http.StatusInternalServerError, err.Error())
+	}
+	Storage["inside"] = temporalStorage["inside"]
+	Storage["outside"] = temporalStorage["outside"]
+	
+	return c.JSON(http.StatusOK, Storage)
+
+}

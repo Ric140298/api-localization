@@ -1,0 +1,17 @@
+9:04PM Log level set to '0'
+9:06PM ERRO [LocalizationController][CalculateDistanceToFences] invalid character '<' looking for beginning of value
+9:06PM REQS [GET][500] /localization/fences?point=-100.44109,20.53208&object=d38952ec-370a-4024-bbad-ca14633fad0f&key=ea8ca9cc-367c-4208-893e-d6485a076e27	447.21 ms
+9:08PM REQS [GET][200] /localization/fences?point=-100.44109,20.53208&object=d38952ec-370a-4024-bbad-ca14633fad0f&key=mPAGwhEHVNv5yWJlTHCsbHceQm4pFTY2	638.84 ms
+9:11PM REQS [GET][200] /localization/fences?point=-100.44109,20.53208&object=d38952ec-370a-4024-bbad-ca14633fad0f&key=mPAGwhEHVNv5yWJlTHCsbHceQm4pFTY2	635.26 ms
+9:11PM REQS [GET][200] /localization/fences?point=-100.44109,20.53208&object=d38952ec-370a-4024-bbad-ca14633fad0f&key=mPAGwhEHVNv5yWJlTHCsbHceQm4pFTY2	600.22 ms
+9:13PM Log level set to '0'
+9:13PM Log level set to '0'
+9:14PM REQS [GET][200] /localization/fences?point=-100.44109,20.53208&object=d38952ec-370a-4024-bbad-ca14633fad0f&key=mPAGwhEHVNv5yWJlTHCsbHceQm4pFTY2	633.40 ms
+9:15PM Log level set to '0'
+9:15PM REQS [GET][200] /localization/fences?point=-100.44109,20.53208&object=d38952ec-370a-4024-bbad-ca14633fad0f&key=mPAGwhEHVNv5yWJlTHCsbHceQm4pFTY2	724.14 ms
+9:15PM REQS [GET][200] /localization/fences?key=mPAGwhEHVNv5yWJlTHCsbHceQm4pFTY2&point=-100.44109,20.53208&object=d38952ec-370a-4024-bbad-ca14633fad0f	619.21 ms
+9:15PM REQS [GET][200] /localization/fences?key=mPAGwhEHVNv5yWJlTHCsbHceQm4pFTY2&point=-100.44109,20.53208&object=d38952ec-370a-4024-bbad-ca14633fad0f	601.91 ms
+9:15PM REQS [GET][200] /localization/fences?key=mPAGwhEHVNv5yWJlTHCsbHceQm4pFTY2&point=-100.44109,20.53208&object=d38952ec-370a-4024-bbad-ca14633fad0f	634.39 ms
+9:16PM REQS [GET][200] /localization/fences?key=mPAGwhEHVNv5yWJlTHCsbHceQm4pFTY2&point=-100.44109,20.53208&object=d38952ec-370a-4024-bbad-ca14633fad0f	688.90 ms
+9:16PM Log level set to '0'
+9:16PM REQS [GET][200] /localization/fences?key=mPAGwhEHVNv5yWJlTHCsbHceQm4pFTY2&point=-100.44109,20.53208&object=d38952ec-370a-4024-bbad-ca14633fad0f	679.29 ms
