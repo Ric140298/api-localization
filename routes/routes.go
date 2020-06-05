@@ -26,6 +26,7 @@ func init() {
 	controllersProvider.Invoke(func(localizationController *controllers.LocalizationController) {
 		Routes = ServerRoutes{
 			Route{Method: "GET", Name: "GetRoute", Pattern: serviceName + "/calcule", HandlerFunc: localizationController.CalculateRoute},
+			Route{Method: "GET", Name: "GetDangerZones", Pattern: serviceName + "/danger", HandlerFunc: localizationController.ShowCoordinatesforDangerZones},
 		}
 	})
 

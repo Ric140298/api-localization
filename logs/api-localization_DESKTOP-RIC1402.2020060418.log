@@ -1,0 +1,15 @@
+6:01PM REQS [GET][200] /localization/calcule?lat1=20.53208&long1=-100.44109&lat2=20.53201&long2=-100.44179	440.34 ms
+6:02PM REQS [GET][200] /localization/calcule?lat1=20.53208&long1=-100.44109&lat2=20.53201&long2=-100.44179	89.00 ms
+6:02PM REQS [GET][200] /localization/calcule?lat1=20.53208&long1=-100.44109&lat2=20.53201&long2=-100.44179	90.00 ms
+6:02PM REQS [GET][200] /localization/calcule?lat1=20.53208&long1=-100.44109&lat2=20.53201&long2=-100.44179	88.00 ms
+6:02PM REQS [GET][200] /localization/calcule?lat1=20.53208&long1=-100.44109&lat2=20.53201&long2=-100.44179	93.51 ms
+6:05PM Log level set to '0'
+6:05PM REQS [GET][200] /localization/calcule?lat1=20.53208&long1=-100.44109&lat2=20.53201&long2=-100.44179	549.79 ms
+6:07PM Log level set to '0'
+6:08PM REQS [GET][200] /localization/calcule?lat1=20.53208&long1=-100.44109&lat2=20.53201&long2=-100.44179	463.35 ms
+6:17PM Log level set to '0'
+6:17PM REQS [GET][200] /localization/calcule?lat1=20.53208&long1=-100.44109&lat2=20.53201&long2=-100.44179	472.66 ms
+6:18PM Log level set to '0'
+6:18PM REQS [GET][200] /localization/calcule?lat1=20.53208&long1=-100.44109&lat2=20.53201&long2=-100.44179	463.11 ms
+6:24PM Log level set to '0'
+6:25PM REQS [GET][200] /localization/calcule?lat1=20.53208&long1=-100.44109&lat2=20.53201&long2=-100.44179	439.00 ms
